@@ -48,7 +48,8 @@
     "import/prefer-default-export": "off",
     "no-use-before-define": "off",
     "prettier/prettier": "error",
-    "@typescript-eslint/ban-types": "off"
+    "@typescript-eslint/ban-types": "off",
+    "no-unused-expressions": "off"
   },
   "settings": {
     "import/resolver": {

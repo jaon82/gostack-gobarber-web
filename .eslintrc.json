@@ -49,7 +49,8 @@
     "no-use-before-define": "off",
     "prettier/prettier": "error",
     "@typescript-eslint/ban-types": "off",
-    "no-unused-expressions": "off"
+    "no-unused-expressions": "off",
+    "import/no-duplicates": "off"
   },
   "settings": {
     "import/resolver": {

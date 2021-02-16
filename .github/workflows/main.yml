@@ -28,7 +28,7 @@ jobs:
     - name: Build
       run: yarn build
       env:
-        REACT_APP_API_URL: REACT_APP_API_URL
+        REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }}
     
     - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:

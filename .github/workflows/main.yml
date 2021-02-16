@@ -22,11 +22,13 @@ jobs:
     - name: Install dependencies
       run: yarn install
     
-    # - name: Run tests
-    #   run: yarn test --watchAll false
+    - name: Run tests
+      run: yarn test --watchAll false
     
     - name: Build
       run: yarn build
+      env:
+        REACT_APP_API_URL: REACT_APP_API_URL
     
     - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:
